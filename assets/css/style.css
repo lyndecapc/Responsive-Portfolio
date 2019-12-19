@@ -114,7 +114,7 @@ p {
     background: #777777;
 }
 
-#vegas {
+.vegas {
     position: absolute;
     top: 0px;
     left: 16%;
@@ -124,7 +124,7 @@ p {
     transform: rotate(90deg);
 }
 
-#vegastext {
+.vegastext {
     position: absolute;
     top: 88px;
     left: 16%;
@@ -135,7 +135,7 @@ p {
     padding-right: 50px;
 }
 
-#vegastext:hover {
+.vegastext:hover {
     background: #777777;
     ;
 }
@@ -163,7 +163,7 @@ p {
     ;
 }
 
-#jrt {
+.jrt {
     position: absolute;
     left: 16%;
     top: 144px;
@@ -172,7 +172,7 @@ p {
     height: auto;
 }
 
-#JRTtext {
+.JRTtext {
     position: absolute;
     top: 232px;
     left: 16%;
@@ -183,7 +183,7 @@ p {
     padding-right: 25px;
 }
 
-#JRTtext:hover {
+.JRTtext:hover {
     background: #777777;
 }
 
@@ -259,19 +259,19 @@ footer {
             text-align: center;
         }
 
-        #vegas {
+        .vegas {
             left: 20%;
         }
 
-        #vegastext {
+        .vegastext {
             left: 20%;
         }
 
-        #jrt {
+        .jrt {
             left: 20%;
         }
 
-        #JRTtext {
+        .JRTtext {
             left: 20%;
         }
 
@@ -310,18 +310,18 @@ footer {
                 height: auto;
             }
 
-            #vegas {
+            .vegas {
                 left: 150px;
             }
 
-            #vegastext {
+            .vegastext {
                 left: 150px;
             }
 
-            #jrt {
+            .jrt {
                 left: 150px;
             }
 
-            #JRTtext {
+            .JRTtext {
                 left: 150px;
             }
