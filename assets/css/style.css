@@ -3,10 +3,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 header {
-    width: 100%;
     position: fixed;
+    width: 100%;
     background: #ffffff;
     height: 80px;
     top: 0;
@@ -14,12 +13,10 @@ header {
     border-color: #dddddd;
     border-width: 1px;
     box-sizing: border-box;
-
-    
 }
 
 .name {
-    position: absolute;
+    position: fixed;
     background: #4aaaa5;
     width: 375px;
     height: 80px;
@@ -30,7 +27,6 @@ header {
     text-align: center;
     left: 20%;
     top: -20px;
-
 }
 
 nav {
@@ -41,7 +37,6 @@ nav {
     background: #ffffff;
     right: 20%;
     top: 10px;
-    
 }
 
 a {
@@ -49,15 +44,12 @@ a {
     text-decoration: none;
     display: inline-block;
     padding: 10px;
-   
 }
-
 
 h3 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 .wrapper {
     background: #ffffff;
@@ -70,12 +62,11 @@ h3 {
     border-width: 2px;
 }
 
-#self {
+.self {
     float: left;
+    width: 140px;
+    height: 140px;
     padding: 20px;
-    width: 200px; 
-    height: 200px;
-    
 }
 
 p {
@@ -85,7 +76,6 @@ p {
     line-height: 30px;
     margin-bottom: 10px;
     padding-left: 20px;
-
 }
 
 #submit {
@@ -95,14 +85,14 @@ p {
 }
 
 #submit:hover {
-    background: #777777;;
+    background: #777777;
+    ;
 }
-
 
 #dog {
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;
 }
 
 #dogcont {
@@ -124,16 +114,14 @@ p {
     background: #777777;
 }
 
-
 #vegas {
     position: absolute;
     top: 0px;
     left: 16%;
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;  
     transform: rotate(90deg);
-    
 }
 
 #vegastext {
@@ -145,16 +133,17 @@ p {
     text-align: center;
     padding-left: 46px;
     padding-right: 50px;
-}  
+}
 
 #vegastext:hover {
-    background: #777777;;
+    background: #777777;
+    ;
 }
 
 #oly {
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;
     transform: rotate(90deg);
 }
 
@@ -170,16 +159,17 @@ p {
 }
 
 #olytext:hover {
-    background: #777777;;
+    background: #777777;
+    ;
 }
-  
+
 #jrt {
     position: absolute;
     left: 16%;
     top: 144px;
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;
 }
 
 #JRTtext {
@@ -201,8 +191,8 @@ p {
     position: relative;
     left: 0;
     border-radius: 10px;
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: auto;
     transform: rotate(90deg);
 }
 
@@ -221,7 +211,6 @@ p {
     background: #777777;
 }
 
-  
 footer {
     background: #666666;
     padding: 30px;
@@ -233,7 +222,7 @@ footer {
     border-width: 8px;
     border-color: #4aaaa5;
 }
-    
+
 .copyright {
     position: fixed;
     bottom: 5px;
@@ -243,11 +232,62 @@ footer {
     font-size: x-small;
 }
 
+@media screen and (max-width: 980px) {
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+    @media screen and (max-width: 768px) {
+        .wrapper {
+            width: 100%;
+            height: auto;
+            
+        }
+        .name {
+            position: absolute;
+            top: -20px;
+            left: 0px;
+        }
+        nav {
+            position: absolute;
+            width: 50%;
+            top: 10px;
+            right: 0px;
+            padding: 10px 0px 10px 20px;
+            text-align: center;
+        }
 
-
-
-
-   
-       
-
-
+        @media screen and (max-width: 640px) {
+            header {
+                width: 100%;
+                position: static;
+                top: -20px;
+                left: -20px;
+            }
+            .name {
+                position: static;
+                width: 100%;
+                height: auto;
+                padding: 10px 20px 10px 20px;
+                background: #4aaaa5;
+                left: -20px;
+                top: 0px;
+                text-align: center;
+            }
+            nav {
+                position: static;
+                width: 100%;
+                top: 80px;
+                left: 0;
+                padding: 10px 20px 10px 20px;
+                text-align: center;
+            }
+            .wrapper {
+                width: 100%;
+                height: auto;
+                margin: 150px 10px 150px 5px;
+            }
+            .self {
+                width: 90%;
+                height: auto;
+            }
