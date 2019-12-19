@@ -238,9 +238,11 @@ footer {
         height: auto;
     }
     @media screen and (max-width: 768px) {
+
         .wrapper {
             width: 100%;
             height: auto;
+            padding: 5px;
             
         }
         .name {
@@ -253,8 +255,24 @@ footer {
             width: 50%;
             top: 10px;
             right: 0px;
-            padding: 10px 0px 10px 20px;
+            padding: 10px 0px 10px 0px;
             text-align: center;
+        }
+
+        #vegas {
+            left: 20%;
+        }
+
+        #vegastext {
+            left: 20%;
+        }
+
+        #jrt {
+            left: 20%;
+        }
+
+        #JRTtext {
+            left: 20%;
         }
 
         @media screen and (max-width: 640px) {
@@ -285,9 +303,25 @@ footer {
             .wrapper {
                 width: 100%;
                 height: auto;
-                margin: 150px 10px 150px 5px;
+                margin: 150px 0px 150px 0px;
             }
             .self {
-                width: 90%;
+                width: 95%;
                 height: auto;
+            }
+
+            #vegas {
+                left: 24%;
+            }
+
+            #vegastext {
+                left: 24%;
+            }
+
+            #jrt {
+                left: 24%;
+            }
+
+            #JRTtext {
+                left: 24%;
             }
