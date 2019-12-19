@@ -120,7 +120,7 @@ p {
     left: 16%;
     border-radius: 10px;
     width: 100%;
-    height: auto;  
+    height: auto;
     transform: rotate(90deg);
 }
 
@@ -238,12 +238,10 @@ footer {
         height: auto;
     }
     @media screen and (max-width: 768px) {
-
         .wrapper {
             width: 100%;
             height: auto;
             padding: 5px;
-            
         }
         .name {
             position: absolute;
@@ -258,23 +256,18 @@ footer {
             padding: 10px 0px 10px 0px;
             text-align: center;
         }
-
         .vegas {
             left: 20%;
         }
-
         .vegastext {
             left: 20%;
         }
-
         .jrt {
             left: 20%;
         }
-
         .JRTtext {
             left: 20%;
         }
-
         @media screen and (max-width: 640px) {
             header {
                 width: 100%;
@@ -309,19 +302,15 @@ footer {
                 width: 95%;
                 height: auto;
             }
-
             .vegas {
                 left: 150px;
             }
-
             .vegastext {
                 left: 150px;
             }
-
             .jrt {
                 left: 150px;
             }
-
             .JRTtext {
                 left: 150px;
             }
