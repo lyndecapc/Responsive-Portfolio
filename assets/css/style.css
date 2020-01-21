@@ -106,8 +106,8 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 34px;
-    padding-right: 33px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 #dogtext:hover {
@@ -155,7 +155,7 @@ p {
     color: #ffffff;
     text-align: center;
     padding-left: 26px;
-    padding-right: 27px;
+    padding-right: 26px;
 }
 
 #olytext:hover {
@@ -203,8 +203,8 @@ p {
     background-color: #4aaaa5;
     color: #ffffff;
     text-align: center;
-    padding-left: 42px;
-    padding-right: 43px;
+    padding-left: 21px;
+    padding-right: 21px;
 }
 
 #linactext:hover {
@@ -313,4 +313,4 @@ footer {
             }
             .JRTtext {
                 left: 150px;
-            }
+            }}}};
